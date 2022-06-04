@@ -1,0 +1,40 @@
+@mixin main_buttons{
+    background-color: rgb(31, 164, 169);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px 10px rgb(95, 130, 248);
+   font-size: 20px;
+}
+@mixin nav {
+         display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url("../images/color.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 70px;
+        
+     
+}
+@mixin grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap:20px;  
+}
+@mixin li{
+        display: flex;
+        flex-direction: column;
+         align-items: flex-start;
+         border: solid 5px black;
+         border-radius: 50px;
+         list-style:none;
+         padding: 20px;
+          
+}
+@mixin title{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+}

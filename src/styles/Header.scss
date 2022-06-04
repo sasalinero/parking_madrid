@@ -1,0 +1,12 @@
+@import "./core/mixins.scss";
+
+*{
+  margin: 0;
+}
+nav{
+@include nav;
+  
+}
+.nav_button{
+   @include main_buttons; 
+}

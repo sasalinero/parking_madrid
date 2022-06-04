@@ -1,0 +1,12 @@
+@import "./core/mixins.scss";
+.footer{
+    background-image: url("../images/text.jpg");
+}
+.footer_flex{
+  display: flex;
+  flex-direction: column;
+  
+}
+section{
+    background-color: red;
+}

@@ -1,0 +1,27 @@
+@import "./core/mixins.scss";
+.principal{
+    background-image: url("../images/letras.jpg");
+    background-position: center;
+    //background-size: cover;
+}
+.title{
+    @include title
+}
+.agenda_ul{
+   @include grid;
+
+}
+.agenda_li{
+
+ @include li;
+ background-color: antiquewhite;
+line-height: 40px;
+     
+}
+
+
+h1{
+color: white;
+font-size: 50px;
+background-color: antiquewhite;
+}
