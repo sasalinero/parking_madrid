@@ -1,12 +1,31 @@
 @import "./core/mixins.scss";
 .footer{
-    background-image: url("../images/text.jpg");
+    //background-image: url("../images/fondolan.jpg");
+    background-color: black;
+    //flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+   // height: 100vh;
+    margin: 0px;
+    color: white;
 }
-.footer_flex{
-  display: flex;
-  flex-direction: column;
+.footer_ul{
+    //flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+   // height: 100vh;
+    margin: 0px;
+    
+}
+.footer_li{
+  margin-left: 50px;
+  line-height: 40px;
+  list-style:none;
+  font-size: 20px;
   
 }
-section{
-    background-color: red;
-}
+

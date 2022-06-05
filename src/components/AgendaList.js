@@ -24,7 +24,7 @@ function AgendaList() {
      <Header />
      
       
-        <h1 className="title">El ocio de Madrid</h1>
+        {/* <h1 className="title">El ocio de Madrid</h1> */}
 
         <ul className="agenda_ul">{renderLiAgenda}</ul>
       </div>

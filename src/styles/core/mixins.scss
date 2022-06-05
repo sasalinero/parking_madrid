@@ -1,15 +1,51 @@
 @mixin main_buttons{
-    background-color: rgb(31, 164, 169);
-    border-radius: 10px;
-    color: white;
-    box-shadow: 0 0 10px 10px rgb(95, 130, 248);
-   font-size: 20px;
+//         .css-button-arrow--black {
+//   min-width: 130px;
+//   height: 40px;
+//   color: #fff;
+//   padding: 5px 10px;
+//   font-weight: bold;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+//   position: relative;
+//   display: inline-block;
+//   outline: none;
+//   overflow: hidden;
+//   border-radius: 5px;
+//   border: none;
+//   background-color: #343a40
+// }
+// .css-button-arrow--black:hover {
+//   border-radius: 5px;
+//   padding-right: 24px;
+//   padding-left:8px;
+// }
+// .css-button-arrow--black:hover:after {
+//   opacity: 1;
+//   right: 10px;
+// }
+// .css-button-arrow--black:after {
+//   content: "\00BB";
+//   position: absolute;
+//   opacity: 0;
+//   font-size: 20px;
+//   line-height: 40px;
+//   top: 0;
+//   right: -20px;
+//   transition: 0.4s;
+//}
+//     background-color: rgb(31, 164, 169);
+//     border-radius: 10px;
+//     color: white;
+//    box-shadow: 0 0 10px 10px rgb(95, 130, 248);
+//    font-size: 20px;
 }
 @mixin nav {
          display: flex;
         align-items: center;
         justify-content: space-around;
-        background-image: url("../images/color.jpg");
+       // background-color: black;
+       // background-image: url("../images/color.jpg");
         background-position: center;
         background-size: cover;
         height: 70px;
@@ -18,17 +54,25 @@
 }
 @mixin grid{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
         grid-column-gap:20px;  
+        grid-row-gap:20px;
+        
 }
 @mixin li{
         display: flex;
         flex-direction: column;
+        justify-content: center;
          align-items: flex-start;
          border: solid 5px black;
          border-radius: 50px;
          list-style:none;
-         padding: 20px;
+         padding: 25px;
+         height: 450px;
+        width: 300px;
+        //background: transparent;
+       
+
           
 }
 @mixin title{
@@ -37,4 +81,18 @@
         margin-top: 20px;
         margin-bottom: 30px;
     
+}
+@mixin p_bold{
+        color: rgb(134, 121, 5);
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+}
+@mixin result{
+        color:rgb(16, 5, 5);
+        font-size: 20px;
+        font-weight: bold;
+}
+@mixin button_info{
+        
 }

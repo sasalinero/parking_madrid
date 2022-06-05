@@ -1,0 +1,51 @@
+.principal_landing{
+ 
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+
+        background-image: url("../images/plu.jpg");
+        background-position: center;
+      //background-size: contain;
+      background-repeat:no-repeat;
+      background-size:cover;
+    
+}
+.btn_class {
+  min-width: 130px;
+  height: 70px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #212529;
+  color: #212529;
+}
+.btn_class:hover {
+  color: #fff;
+}
+.btn_class:hover:after {
+  width: 100%;
+}
+.btn_class:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #212529;
+}

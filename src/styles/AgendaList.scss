@@ -1,8 +1,9 @@
 @import "./core/mixins.scss";
 .principal{
-    background-image: url("../images/letras.jpg");
-    background-position: center;
-    //background-size: cover;
+    background-image: url("../images/sill.jpg");
+  
+  background-size: contain;
+  background-repeat: repeat;
 }
 .title{
     @include title
@@ -14,14 +15,11 @@
 .agenda_li{
 
  @include li;
- background-color: antiquewhite;
+ background-image: url(../images/cua.jpg);
+ background-size: cover;
 line-height: 40px;
+
+
      
 }
 
-
-h1{
-color: white;
-font-size: 50px;
-background-color: antiquewhite;
-}

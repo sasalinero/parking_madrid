@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
+import "../styles/Landing.scss";
 function Landing() {
   return (
-    <div>
+    <div className="principal_landing">
       <Link to="/weather">
-        <button>El tiempo</button>
+        <button className="btn_class" >El tiempo</button>
       </Link>
       <Link to="/parkingsList">
-        <button>Parking</button>
+        <button  className="btn_class">Parking</button>
       </Link>
       <Link to="/agenda">
-        <button>Ocio</button>
+        <button  className="btn_class">Ocio</button>
       </Link>
     </div>
   );
