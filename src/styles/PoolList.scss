@@ -1,8 +1,9 @@
 @import "./core/mixins.scss";
+
 .principal_pool{
     background-image: url("../images/verano.jpg");
   background-size: contain;
-   // background-repeat:repeat;
+   //background-repeat:repeat;
    background-position: center;
   
 }
@@ -18,3 +19,8 @@
 .pool_ul{
     @include grid;
 }
+// .pool_filtered{
+//   @include grid;
+ 
+  
+// }
