@@ -4,13 +4,13 @@ function Header (){
     return(<>
     <nav>
     <Link to="/weather">
-        <button className="nav_button">El tiempo</button>
+        <button className="btn_class">El tiempo</button>
       </Link>
       <Link to="/parkingsList">
-        <button className="nav_button" >Parking</button>
+        <button className="btn_class" >Parking</button>
       </Link>
       <Link to="/agenda">
-        <button className="nav_button">Ocio</button>
+        <button className="btn_class">Ocio</button>
       </Link>
     </nav>
   </>

@@ -3,7 +3,7 @@ import "../styles/Footer.scss";
 function Footer() {
   return (
     <footer className="footer">
-      <h3>🌎Contacto</h3>
+      <h2>🌎Contacto</h2>
       <ul className="footer_ul">
         <li className="footer_li">
           <a href="mailto:sasalinero@gmail.com">💌 Email</a>

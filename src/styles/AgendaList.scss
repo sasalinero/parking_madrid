@@ -10,16 +10,15 @@
 }
 .agenda_ul{
    @include grid;
+ 
 
 }
 .agenda_li{
 
  @include li;
- background-image: url(../images/cua.jpg);
+ background-image: url(../images/blanc.jpg);
  background-size: cover;
-line-height: 40px;
+line-height: 30px;
 
-
-     
 }
 

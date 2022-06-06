@@ -1,0 +1,25 @@
+@import "./core/mixins.scss";
+
+.name_p_auto{
+        @include p_bold;
+        text-transform: uppercase;
+        border-bottom: 2px solid #650606;
+        font-size: 30px;
+        color: white;
+}
+.where_p_auto{
+   
+    @include p_bold;
+
+
+
+text-decoration-line: underline;
+
+    
+   
+}
+.res_p_auto{
+    @include result;
+    text-transform: lowercase;
+    color: white;
+}

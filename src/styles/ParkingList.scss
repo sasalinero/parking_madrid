@@ -1,0 +1,24 @@
+@import "./core/mixins.scss";
+.principal_parking{
+    background-image: url("../images/co.jpg");
+    //background-size: contain;
+   // background-repeat:repeat;
+   background-position: center;
+    background-size:cover;
+}
+.coche_li{
+  
+
+        @include li;
+        background-image: url(../images/carr.jpg);
+        background-size: cover;
+       line-height: 40px;
+      
+
+}
+.parking_ul{
+   
+        @include grid;
+     
+    
+}

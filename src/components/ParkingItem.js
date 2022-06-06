@@ -1,3 +1,4 @@
+import "../styles/ParkingItem.scss";
 function ParkingItem(props) {
  
   const showInMapClicked = () => {
@@ -8,9 +9,9 @@ function ParkingItem(props) {
 
   return (
     <>
-      <p>Nombre: {props.parkingData.title}</p>
-      <p>Dirección: {props.parkingData.direccion}</p>
-      <button onClick={showInMapClicked}>Como llegar</button>
+      <p className="name_p_auto" >{props.parkingData.title}</p>
+      <p className="where_p_auto">Dirección:</p> <p className="res_p_auto">{props.parkingData.direccion}</p> 
+      <button onClick={showInMapClicked} className="btn_info auto">¿Cómo llegar?</button>
     </>
   );
 }

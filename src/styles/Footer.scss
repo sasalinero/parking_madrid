@@ -1,15 +1,16 @@
 @import "./core/mixins.scss";
 .footer{
     //background-image: url("../images/fondolan.jpg");
-    background-color: black;
+    background-color: rgb(198, 198, 198);
     //flex-direction: column;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
    // height: 100vh;
-    margin: 0px;
-    color: white;
+    //margin: 0px;
+    color: black;
+     
 }
 .footer_ul{
     //flex-direction: column;
@@ -19,13 +20,16 @@
     align-items: center;
    // height: 100vh;
     margin: 0px;
+    padding: 20px;
+ 
     
 }
 .footer_li{
   margin-left: 50px;
   line-height: 40px;
   list-style:none;
-  font-size: 20px;
+   font-size: 20px;
   
 }
+
 

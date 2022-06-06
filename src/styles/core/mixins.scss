@@ -44,11 +44,13 @@
          display: flex;
         align-items: center;
         justify-content: space-around;
-       // background-color: black;
-       // background-image: url("../images/color.jpg");
+     //background-color: rgb(198, 198, 198);
+       //background-image: url("../images/plu.jpg");
         background-position: center;
         background-size: cover;
-        height: 70px;
+border: solid 2px black;
+
+       
         
      
 }
@@ -57,23 +59,24 @@
         grid-template-columns: auto auto auto;
         grid-column-gap:20px;  
         grid-row-gap:20px;
+        margin-top: 50px;
+        //margin-bottom: 50px;
+
         
 }
 @mixin li{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-         align-items: flex-start;
+        justify-content: space-around;
+         align-items: center;
          border: solid 5px black;
          border-radius: 50px;
          list-style:none;
          padding: 25px;
          height: 450px;
         width: 300px;
-        //background: transparent;
-       
-
-          
+        margin-bottom: 30px;
+  
 }
 @mixin title{
         display: flex;
@@ -83,7 +86,8 @@
     
 }
 @mixin p_bold{
-        color: rgb(134, 121, 5);
+        color: rgb(198, 180, 12);
+        
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
@@ -92,6 +96,8 @@
         color:rgb(16, 5, 5);
         font-size: 20px;
         font-weight: bold;
+        text-transform: initial;
+        
 }
 @mixin button_info{
         

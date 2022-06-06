@@ -6,18 +6,18 @@
         flex-direction: column;
         min-width: 130px;
         height: 40px;
-        //color: #fff;
+       
         padding: 5px 10px;
         font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
+      cursor: pointer;
+        transition: all 0.2s ease;
+      position: relative;
         display: inline-block;
         outline: none;
         overflow: hidden;
         border-radius: 5px;
-        border: none;
-        background-color: black;
+        border: solid 3px black;
+        background-color: rgb(138, 1, 1);
         margin-top: 10px;
       }
       .btn_info:hover {
@@ -51,12 +51,17 @@ color: rgb(0, 0, 0);
 }
 .when_p{
     @include p_bold;
-   
+text-decoration-line: underline;
+
+ 
 }
 .where_p{
-    @include p_bold;
-   
 
+text-decoration-line: underline;
+
+   
+    @include p_bold;
+ 
 }
 .btn_info{
     @include p_bold;
