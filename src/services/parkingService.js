@@ -14,7 +14,7 @@ function getParkingsFromApi(ev) {
     .then((response) =>  response.json())
     .then((json) => {
  
- // ev.preventDefault();
+ 
       const allParkings= json["@graph"].map((parking) => {
         return {
           title: parking.title,

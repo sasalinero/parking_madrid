@@ -1,0 +1,19 @@
+@import "./core/mixins.scss";
+.name_p_pool{
+    @include p_bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #650606;
+    font-size: 30px;
+    color: white;
+}
+.where_p_pool{
+    @include p_bold;
+    color: black;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+.res_p_pool{
+    @include result;
+    text-transform: lowercase;
+    color: white;
+}

@@ -4,6 +4,7 @@ import getAgendaFromApi from "../services/agendaService";
 import AgendaItem from "./AgendaItem";
 import "../styles/AgendaList.scss";
 
+
 function AgendaList() {
   const [dataAgenda, setDataAgenda] = useState([]);
 

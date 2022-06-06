@@ -3,11 +3,13 @@ import "../styles/Landing.scss";
 function Landing() {
   return (
     <div className="principal_landing">
-      <Link to="/weather">
-        <button className="btn_class" >El tiempo</button>
+    <h1>Tu Plan en Madrid</h1>
+
+      <Link to="/poolList">
+        <button className="btn_class" >Piscinas </button>
       </Link>
       <Link to="/parkingsList">
-        <button  className="btn_class">Parking</button>
+        <button  className="btn_class">Parking </button>
       </Link>
       <Link to="/agenda">
         <button  className="btn_class">Ocio</button>
