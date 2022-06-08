@@ -9,15 +9,14 @@ import Footer from "./components/Footer";
 const App = (props) => {
   return (
     <div>
-      <BrowserRouter><Route path="/" element={<Landing />} />
+     
         <Routes>
-          
+           <Route path="/" element={<Landing />} />
           <Route path="/poolList" element={<PoolList />} />
           <Route path="/parkingsList" element={<ParkingsList />} />
           <Route path="/agenda" element={<AgendaList />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
     </div>
   );
 };
