@@ -1,21 +1,19 @@
 @import "./core/mixins.scss";
 
-*{
+* {
   margin: 0;
 }
-nav{
-@include nav;
-
-  
+nav {
+  @include nav;
 }
 
-.btn_class{
+.btn_class {
   font-size: 20px;
   height: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.btn_volver{
+.btn_volver {
   height: 50px;
   background: transparent;
 }

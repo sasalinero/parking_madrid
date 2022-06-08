@@ -1,26 +1,33 @@
 @import "./core/mixins.scss";
 
-.principal_pool{
-    background-image: url("../images/verano.jpg");
-  background-size: contain;
-   //background-repeat:repeat;
-   background-position: center;
-  
-}
-.pool_li{
+.principal_pool {
+  background-image: url("../images/verano.jpg");
 
-    @include li;
-    background-image: url(../images/piscina.jpg);
-    background-size: cover;
-   line-height: 40px;
- 
+}
+.pool_li {
+  @include li;
+  background-image: url(../images/piscina.jpg);
+  background-size: cover;
+  line-height: 30px;
   background-position: center;
 }
-.pool_ul{
-    @include grid;
+
+.postcode_label {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-// .pool_filtered{
-//   @include grid;
- 
-  
-// }
+.postcode_select {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.pool_filtered_li {
+  @include grid;
+}

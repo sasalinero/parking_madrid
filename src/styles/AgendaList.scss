@@ -1,24 +1,16 @@
 @import "./core/mixins.scss";
-.principal{
-    background-image: url("../images/sill.jpg");
-  
+.principal {
+  background-image: url("../images/sill.jpg");
   background-size: contain;
   background-repeat: repeat;
 }
-.title{
-    @include title
+
+.agenda_ul {
+  @include grid;
 }
-.agenda_ul{
-   @include grid;
- 
-
+.agenda_li {
+  @include li;
+  background-image: url(../images/blanc.jpg);
+  background-size: cover;
+  line-height: 30px;
 }
-.agenda_li{
-
- @include li;
- background-image: url(../images/blanc.jpg);
- background-size: cover;
-line-height: 30px;
-
-}
-

@@ -1,35 +1,23 @@
 @import "./core/mixins.scss";
-.footer{
-    //background-image: url("../images/fondolan.jpg");
-    background-color: rgb(198, 198, 198);
-    //flex-direction: column;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-   // height: 100vh;
-    //margin: 0px;
-    color: black;
-     
+.footer {
+  background-color: rgb(198, 198, 198);
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
 }
-.footer_ul{
-    //flex-direction: column;
-    display: flex;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-   // height: 100vh;
-    margin: 0px;
-    padding: 20px;
- 
-    
+.footer_ul {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding: 20px;
 }
-.footer_li{
+.footer_li {
   margin-left: 50px;
   line-height: 40px;
-  list-style:none;
-   font-size: 20px;
-  
+  list-style: none;
+  font-size: 20px;
 }
-
-

@@ -1,15 +1,13 @@
 import Header from "./Header";
 import ParkingItem from "./ParkingItem";
-import {useState, useEffect}from "react"
+import { useState, useEffect } from "react";
 import getParkingsFromApi from "../services/parkingService";
 import "../styles/ParkingList.scss";
 function ParkingsList() {
-
   const [data, setData] = useState([]);
 
   useEffect((ev) => {
-   
-      getParkingsFromApi().then((allParkingsData) => {
+    getParkingsFromApi().then((allParkingsData) => {
       setData(allParkingsData);
     });
   }, []);
@@ -22,13 +20,8 @@ function ParkingsList() {
 
   return (
     <div className="principal_parking">
-   
-            <Header/>
-      
-        {/* <h1 className="title">Parkings disuarorios de madrid</h1> */}
-    <ul className="parking_ul">
-      {renderLi}
-    </ul>
+      <Header />
+      <ul className="parking_ul">{renderLi}</ul>
     </div>
   );
 }

@@ -1,18 +1,14 @@
-.principal_landing{
- 
+.principal_landing {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
   margin: 0px;
-
-        background-image: url("../images/plu.jpg");
-        background-position: center;
-      //background-size: contain;
-      background-repeat:no-repeat;
-      background-size:cover;
-    
+  background-image: url("../images/plu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .btn_class {
   min-width: 130px;
@@ -49,7 +45,7 @@
   height: 100%;
   background: #212529;
 }
-h1{
+h1 {
   font-size: 50px;
   color: white;
 }

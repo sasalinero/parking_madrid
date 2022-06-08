@@ -4,7 +4,6 @@ import getAgendaFromApi from "../services/agendaService";
 import AgendaItem from "./AgendaItem";
 import "../styles/AgendaList.scss";
 
-
 function AgendaList() {
   const [dataAgenda, setDataAgenda] = useState([]);
 
@@ -21,12 +20,9 @@ function AgendaList() {
   ));
 
   return (
-    <><div className="principal">
-     <Header />
-     
-      
-        {/* <h1 className="title">El ocio de Madrid</h1> */}
-
+    <>
+      <div className="principal">
+        <Header />
         <ul className="agenda_ul">{renderLiAgenda}</ul>
       </div>
     </>
