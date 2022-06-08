@@ -4,11 +4,11 @@
 
 # ¿De qué trata este proyecto?
 
-Este proyecto es una prueba técnica para Divitsa-It, donde a partir de una API pública de la CAM tenía que conseguir el Listado de los Parkings públicos, con su nombre y un boton de "Cómo llegar" que llevase a google maps.  
+Este proyecto es una prueba técnica para Divitsa-It, donde a partir de una API pública de la CAM tenía que conseguir el Listado de los :red_car: **Parkings públicos de Madrid** :red_car:, con su nombre y un boton de "Cómo llegar" que llevase a google maps.  
 
-La segunda API opcional, elegí el de las Actividades Culturales y de Ocio de Madrid de los próximos 100 días. 
+La segunda API opcional, elegí el de las :art: **Actividades Culturales y de Ocio de Madrid** :art: de los próximos 100 días. 
 
-Y la tercera es una API también opcional de las piscinas municipales de Madrid. Donde se pueden filtrar por Código Postal.
+Y la tercera es una API también opcional de :swimmer: **Las piscinas municipales de Madrid** :swimmer:. Donde se pueden filtrar por Código Postal.
 
 Todo esto precedido por una página principal, con un sistema de Router el cual permite la navegación entre las distintas páginas. Con un menú superior que se repite en todos los componentes, además de un footer con mi contacto!
 
