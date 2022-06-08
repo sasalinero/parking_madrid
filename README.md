@@ -1,16 +1,16 @@
-<h1 align="center">¡Planes en Madrid!</h1>
+<h1 align="center">¡Tu plan en Madrid!</h1>
 
 <p align="center"><img  src="https://media.giphy.com/media/3KC2jD2QcBOSc/giphy.gif" alt="gif" /></p>
 
 # ¿De qué trata este proyecto?
 
-Este proyecto es una prueba técnica para Divitsa-it, donde a partir de una API pública de la CAM tenía que conseguir el Listado de los Parkings públicos, con su nombre y un boton de "Cómo llegar" que llevase a google maps.  
+Este proyecto es una prueba técnica para Divitsa-It, donde a partir de una API pública de la CAM tenía que conseguir el Listado de los Parkings públicos, con su nombre y un boton de "Cómo llegar" que llevase a google maps.  
 
-La segunda API es de las Actividades Culturales y de Ocio de Madrid de los próximos 100 días. 
+La segunda API opcional, elegí el de las Actividades Culturales y de Ocio de Madrid de los próximos 100 días. 
 
-Y la tercera es una API de las piscinas municipales de Madrid.
+Y la tercera es una API también opcional de las piscinas municipales de Madrid. Donde se pueden filtrar por Código Postal.
 
-Todo esto precedido por una página principal, y con un menú superior que se repite en todos los componentes, además de un footer con mi contacto!
+Todo esto precedido por una página principal, con un sistema de Router el cual permite la navegación entre las distintas páginas. Con un menú superior que se repite en todos los componentes, además de un footer con mi contacto!
 
 ## Construido con 🛠️️
 
